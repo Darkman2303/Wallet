@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">Wallet</string>
+    <string name="app_info_name">App name: </string>
+    <string name="app_info_package">Package name: </string>
+    <string name="app_info_version">Version: </string>
+    <string name="app_info_device">Device: </string>
+    <string name="app_info_android">Android: </string>
+    <string name="app_info_developer">Developer: </string>
+    <string name="app_info_support">Support: </string>
+    <string name="about_app">About app</string>
+    <string name="about_app_title">About %1$s</string>
+    <string name="developer_name">Nurmatov Ruslan</string>
+    <string name="developer_email">nurmatovruslan311@gmail.com</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="history">History</string>
+
+    <string name="add">Add score</string>
+    <string name="remove">Remove score</string>
+    <string name="set_score">Set score</string>
+    <string name="edit_score">Edit score</string>
+    <string name="change_score">Changing score</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="filter">Filter</string>
+    <string name="sort">Sort</string>
+    <string name="action_choose_one">Choose one</string>
+    <string name="support">Support</string>
+    <string name="testing">Testing</string>
+    <string name="goal_value_hint">Goal value</string>
+    <string name="title_hint">Title</string>
+
+    <string name="number_hint">Enter a number</string>
+    <string name="enter_a_whole_number">Enter a whole number</string>
+    <string name="hint_date">Enter date</string>
+    <string name="number_format_error">Invalid input. Please enter a number.</string>
+    <string name="error_input_correct_number">Error, please enter a valid number</string>
+    <string name="error_inner">Internal error</string>
+    <string name="error_creating_file">Error creating file.</string>
+    <string name="error_get_history">Error loading history, a new list has been created</string>
+    <string name="error_unknown_balance">Error: unknown balance.</string>
+    <string name="error_empty_field">Field cannot be empty</string>
+
+
+    <string name="choose_color">Choose a color</string>
+    <string name="choose_image">Choose an image</string>
+    <string name="selected_color_prefix">Color: %1$s</string>
+
+    <string name="color_growth_green">Growth Green</string>
+    <string name="color_trust_blue">Trust Blue</string>
+    <string name="color_smart_purple">Smart Purple</string>
+    <string name="color_energy_orange">Energy Orange</string>
+    <string name="color_berry_fuchsia">Berry Fuchsia</string>
+    <string name="color_fresh_teal">Fresh Teal</string>
+    <string name="color_royal_gold">Royal Gold</string>
+    <string name="color_rose_desire">Rose Desire</string>
+    <string name="color_deep_ocean">Deep Ocean</string>
+    <string name="color_purple">Royal Amethyst</string>
+    <string name="color_slate">Slate Gray</string>
+    <string name="color_coral">Soft Coral</string>
+
+    <string name="score_text">Score</string>
+    <string name="left_score_text">Score Left</string>
+    <string name="max_score_text">Goal</string>
+    <string name="sum">Sum</string>
+    <string name="total">Total</string>
+    <string name="goal">Goal: </string>
+    <string name="goal_hint">Change your goal</string>
+    <string name="percent">Percent</string>
+    <string name="persent_achive">Achievement percent: </string>
+    <string name="efficiency">Efficiency</string>
+    <string name="performance">Performance</string>
+    <string name="value">Value</string>
+    <string name="edit_balance">Editing</string>
+    <string name="create_balance">Creating</string>
+
+    <string name="today">Today</string>
+    <string name="date">Date:</string>
+    <string name="dates">Dates</string>
+    <string name="target_date">Target date:</string>
+    <string name="based_day">Start Date: </string>
+    <string name="left_days">Days left: </string>
+    <string name="passed_days">Passed days</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="from">From</string>
+    <string name="To">To</string>
+    <string name="date_format_dd_mm_yyyy">dd.MM.yyyy</string>
+
+    <string name="stat_plan">Plan: Real / Base</string>
+    <string name="ahead">Ahead</string>
+    <string name="on_track">On Track</string>
+    <string name="behind">Behind</string>
+    <string name="need_to_catch_up">Need to catch up</string>
+    <string name="right_now">right now</string>
+    <string name="analyse_finish_day">At this rate, you will finish</string>
+    <string name="days_early">days early!</string>
+    <string name="finishing_on_time">Great pace! You will finish on time.</string>
+    <string name="f_on_time">You are exactly on schedule. Keep it up!</string>
+
+    <string name="goal_score">Score</string>
+    <string name="goal_target">Goal</string>
+    <string name="goal_remains">Remains</string>
+    <string name="goal_weekly_actual_plan">Weekly Fact/Plan</string>
+    <string name="goal_progress">Progress</string>
+    <string name="goal_status_behind">Behind 🚩</string>
+    <string name="goal_status_ahead">Ahead 🚀</string>
+    <string name="goal_status_on_track">On Track ✅</string>
+    <string name="goal_status">Status</string>
+    <string name="goal_days_passed">Days passed</string>
+    <string name="goal_days_left">Days left</string>
+    <string name="goal_time">Time</string>
+    <string name="goal_days_separator"> / </string>
+
+    <string name="salary">Salary</string>
+    <string name="money">Money</string>
+    <string name="type">Type</string>
+    <string name="transaction">Transaction</string>
+    <string name="enrollment">Enrollment</string>
+    <string name="accumulation">Accumulation</string>
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="event">Event</string>
+    <string name="each_other">Others</string>
+    <string name="owe">Owe: </string>
+    <string name="fact_">Fact: </string>
+    <string name="every_day_vsnos">Daily requirement: </string>
+
+    <string name="languages">Languages</string>
+    <string name="personalisation">Personalization</string>
+    <string name="active_accent">Active accent</string>
+    <string name="use_deep_dark">Use deep dark theme</string>
+    <string name="dark_mode_is_off">Supported only in dark mode</string>
+    <string name="synch">Synchronization</string>
+    <string name="dynamic_variant">Dynamic colors</string>
+
+    <string name="red_variant">Variations of Red</string>
+    <string name="purple_variant">Variations of Purple</string>
+    <string name="green_variant">Variations of Green</string>
+    <string name="blue_variant">Variations of Blue</string>
+    <string name="brown_variant">Variations of Brown</string>
+    <string name="br_variant">Variations of Cyan</string>
+    <string name="rose_variant">Variations of Rose</string>
+    <string name="yellow_variant">Variations of Yellow</string>
+    <string name="lime_variant">Variations of Lime</string>
+    <string name="violet_variant">Variations of Violet</string>
+    <string name="olive_variant">Variations of Olive</string>
+
+    <string name="machine">Machine</string>
+    <string name="education">Education</string>
+    <string name="smartphone">Smartphone</string>
+    <string name="laptop">Laptop / PC</string>
+    <string name="shield">Shield balance</string>
+    <string name="holiday">Holidays</string>
+    <string name="none">None</string>
+    <string name="more">More</string>
+    <string name="less">Less</string>
+
+    <string-array name="input_category">
+        <item>Salary</item>
+        <item>Gift</item>
+        <item>Interest</item>
+        <item>Tips</item>
+        <item>Scholarship</item>
+        <item>Bonus</item>
+        <item>Investment</item>
+        <item>Cashback</item>
+        <item>Sale</item>
+        <item>Rental</item>
+        <item>Freelance</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="income_categories">
+        <item>Salary</item>
+        <item>Gift</item>
+        <item>Interest</item>
+        <item>Tips</item>
+        <item>Scholarship / Bonus</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="advice1">Prove yourself and rise!</string>
+    <string name="advice2">Higher and higher you chase it!</string>
+    <string name="advice3">Small steps lead to big results.</string>
+    <string name="advice4">Your future success depends on today\'s efforts.</string>
+    <string name="advice5">Discipline is the bridge between goals and accomplishment.</string>
+    <string name="advice6">Every point earned is an investment in your dream.</string>
+    <string name="advice7">Don\'t stop until you\'re proud.</string>
+    <string name="advice8">A journey of a thousand miles begins with a single step.</string>
+    <string name="advice9">Hard doesn\'t mean impossible.</string>
+    <string name="advice10">Your only competition is who you were yesterday.</string>
+    <string name="advice11">Focus on progress, not perfection.</string>
+    <string name="advice12">Success is the sum of small efforts, repeated day in and day out.</string>
+    <string name="advice13">It doesn\'t matter how slowly you go as long as you do not stop.</string>
+
+    <string name="alert_history_empty">No transactions yet.</string>
+    <string name="not_full_info">Information incomplete</string>
+    <string name="unknown_balance">Unknown balance</string>
+    <string name="left">Left</string>
+    <string name="app_info_full_format">
+        | %1$s %2$s\n
+        | %3$s %4$s\n
+        | %5$s %6$s (%7$d)\n
+        | %8$s %9$s %10$s\n
+        | %11$s %12$s (API %13$d)\n\n
+        | %14$s %15$s\n
+        | %16$s %17$s
+    </string>
+
+    <string name="car_accu" translatable="false">for Car</string>
+    <string name="holiday_accu" translatable="false">for Holidays</string>
+    <string name="other_accu" translatable="false">for Others</string>
+    <string name="for_others" translatable="false">for others</string>
+    <string name="for_holidays" translatable="false">for holiday</string>
+    <string name="for_car" translatable="false">for car</string>
+
+</resources>

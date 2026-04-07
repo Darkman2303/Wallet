@@ -1,0 +1,123 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.red" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/red_dark</item>
+        <item name="containerBackgroundColor">@color/red_light</item>
+        <item name="dividerColor">?colorPrimary</item>
+        <item name="android:statusBarColor">?colorPrimary</item>
+        <item name="progressBarBackgroundColor">@color/red_progress</item>
+    </style>
+
+    <style name="Theme.blue" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsFloating">false</item>
+
+        <item name="containerBackgroundColor">@color/blue_light</item>
+        <item name="dividerColor">?attr/colorPrimary</item>
+        <item name="progressBarBackgroundColor">@color/blue_progress</item>
+
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="Theme.green" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="containerBackgroundColor">@color/green_light</item>
+        <item name="android:statusBarColor">?colorPrimary</item>
+        <item name="dividerColor">?colorPrimary</item>
+        <item name="progressBarBackgroundColor">@color/green_progress</item>
+    </style>
+
+    <style name="Theme.violet" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/violet</item>
+        <item name="containerBackgroundColor">@color/violet_light</item>
+        <item name="android:statusBarColor">?colorPrimary</item>
+        <item name="dividerColor">?colorPrimary</item>
+        <item name="progressBarBackgroundColor">@color/violet_progress</item>
+    </style>
+
+    <style name="Theme.brown" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/brown</item>
+        <item name="containerBackgroundColor">@color/brown_light</item>
+        <item name="android:statusBarColor">?colorPrimary</item>
+        <item name="dividerColor">?colorPrimary</item>
+        <item name="progressBarBackgroundColor">@color/brown_progress</item>
+    </style>
+
+    <style name="Theme.br" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/br</item>
+        <item name="containerBackgroundColor">@color/br_light</item>
+        <item name="android:statusBarColor">?colorPrimary</item>
+        <item name="dividerColor">?colorPrimary</item>
+        <item name="progressBarBackgroundColor">@color/br_progress</item>
+    </style>
+
+    <style name="Theme.rose" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/rose</item>
+        <item name="containerBackgroundColor">@color/rose_light</item>
+        <item name="android:statusBarColor">?colorPrimary</item>
+        <item name="dividerColor">?colorPrimary</item>
+        <item name="progressBarBackgroundColor">@color/rose_progress</item>
+    </style>
+
+    <style name="Theme.yellow" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/yellow_1</item>
+        <item name="containerBackgroundColor">@color/yellow_light</item>
+        <item name="android:statusBarColor">?colorPrimary</item>
+        <item name="dividerColor">?colorPrimary</item>
+        <item name="progressBarBackgroundColor">@color/yellow_progress</item>
+    </style>
+
+    <style name="Theme.lime" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/lime</item>
+        <item name="containerBackgroundColor">@color/lime_light</item>
+        <item name="android:statusBarColor">?colorPrimary</item>
+        <item name="dividerColor">?colorPrimary</item>
+        <item name="progressBarBackgroundColor">@color/lime_progress</item>
+    </style>
+
+    <style name="Theme.purple" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/purple</item>
+        <item name="containerBackgroundColor">@color/purple_light</item>
+        <item name="android:statusBarColor">?colorPrimary</item>
+        <item name="dividerColor">?colorPrimary</item>
+        <item name="progressBarBackgroundColor">@color/purple_progress</item>
+    </style>
+
+    <style name="Theme.olive" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/olive</item>
+        <item name="containerBackgroundColor">@color/olive_light</item>
+        <item name="android:statusBarColor">?colorPrimary</item>
+        <item name="dividerColor">?colorPrimary</item>
+        <item name="progressBarBackgroundColor">@color/olive_progress</item>
+    </style>
+
+    <style name="Theme.dynamic" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/material_dynamic_primary50</item>
+        <item name="containerBackgroundColor">@color/material_dynamic_secondary90</item>
+        <item name="android:statusBarColor">@color/material_dynamic_primary50</item>
+        <item name="dividerColor">?colorPrimary</item>
+        <item name="progressBarBackgroundColor">@color/material_dynamic_secondary80</item>
+        <item name="android:windowBackground">@color/material_dynamic_neutral99</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyleWrapper</item>
+    </style>
+
+    <style name="BottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="ThemeOverlay.Wallet.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+</resources>

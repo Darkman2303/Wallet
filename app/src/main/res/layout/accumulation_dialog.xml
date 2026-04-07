@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_top_corners"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/title_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <View
+            android:layout_width="200dp"
+            android:layout_height="5dp"
+            android:background="@drawable/container_style"
+            android:backgroundTint="@color/gray"
+            android:layout_marginVertical="7dp"
+            android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/transaction"
+                android:textSize="24sp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/container_style"
+                android:backgroundTint="?colorPrimary"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:layout_gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_bar">
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/toggleGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginHorizontal="7dp"
+            app:singleSelection="true"
+            app:checkedButton="@+id/btnExpense">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnExpense"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/income" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnIncome"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/expense" />
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:hint="@string/number_hint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dialog_edittext"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/date"/>
+            <TextView
+                android:id="@+id/dateText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginStart="2dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/today"/>
+
+            <ImageButton
+                android:id="@+id/date_picker"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:backgroundTint="?colorPrimary"
+                android:contentDescription="@string/add"
+                android:gravity="end"
+                android:src="@drawable/ic_calendar" />
+        </LinearLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/my_exposed_dropdown_menu_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/my_autocomplete_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:focusable="false"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_marginHorizontal="7dp"
+            android:layout_marginVertical="5dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessLeaf">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_marginHorizontal="3dp"
+                android:id="@+id/dialog_removeButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/cancel"/>
+            <Button
+                android:layout_marginHorizontal="3dp"
+                android:id="@+id/dialog_addButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/add"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

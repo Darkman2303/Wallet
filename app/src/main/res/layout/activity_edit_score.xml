@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edit_score">
+    <LinearLayout
+        android:id="@+id/app_bar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/close_bt"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/container_style"
+            android:backgroundTint="?colorSecondary"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_back"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="@string/edit_score"
+            android:layout_marginStart="3dp"
+            android:backgroundTint="?colorSecondary"
+            android:textColor="@color/white"
+            android:background="@drawable/container_style"/>
+    </LinearLayout>
+    <ScrollView
+        app:layout_constraintTop_toBottomOf="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_margin="7dp"
+                android:background="@drawable/container_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:text="@string/goal" />
+                <TextView
+                    android:id="@+id/goal_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:visibility="gone"
+                    android:id="@+id/goal_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/goal_hint"
+                    android:minHeight="48dp" />
+
+                <ImageButton
+                    android:id="@+id/goal_bt"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_edit"
+                    android:backgroundTint="?colorPrimary"
+                    tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/number_layout"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/bt_10k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="10000"/>
+                    <Button
+                        android:id="@+id/bt_30k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="30000"/>
+                    <Button
+                        android:id="@+id/bt_50k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="50000"/>
+                    <Button
+                        android:id="@+id/bt_80k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="80000"/>
+                    <Button
+                        android:id="@+id/bt_100k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="100000"/>
+                </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

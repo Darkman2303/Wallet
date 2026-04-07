@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="?android:attr/colorBackground"
+    tools:context=".ui.accumulation.GoalFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="100dp">
+            <FrameLayout
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp">
+
+            <com.darkman.wallet_3.ui.accumulation.CircularGoalView
+                android:id="@+id/circularGoalProgress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/goalDetailIcon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="25dp"
+                android:paddingHorizontal="40dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="40dp"
+                android:src="@drawable/ic_laptop"
+                android:importantForAccessibility="no" />
+        </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="7dp"
+                android:layout_marginVertical="4dp"
+                android:background="@drawable/container_style"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="@string/value"
+                    android:layout_margin="3dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+                    android:layout_margin="3dp">
+                    <include android:id="@+id/statScore" android:layout_marginHorizontal="2dp" android:layout_height="match_parent" android:layout_width="0dp" layout="@layout/item_stat_card"
+                        android:layout_weight="1" />
+                    <include android:id="@+id/statRemains" android:layout_marginHorizontal="2dp" android:layout_height="match_parent" android:layout_width="0dp" layout="@layout/item_stat_card"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="7dp"
+                android:layout_marginVertical="4dp"
+                android:background="@drawable/container_style"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="@string/dates"
+                    android:layout_margin="3dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <include android:id="@+id/statLeftDays" android:layout_marginHorizontal="2dp" android:layout_height="match_parent" android:layout_width="0dp" layout="@layout/item_stat_card"
+                        android:layout_weight="1" />
+                    <include android:id="@+id/statPassedDays" android:layout_marginHorizontal="2dp" android:layout_height="match_parent" android:layout_width="0dp" layout="@layout/item_stat_card"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:paddingTop="30dp"> <ProgressBar
+                    android:id="@+id/determinateBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
+                    android:max="100"
+                    android:progressDrawable="@drawable/horizontal_progressbar" />
+
+                    <TextView
+                        android:id="@+id/tvProgressLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_tooltip"
+                        android:paddingHorizontal="8dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="9dp"
+                        android:text="93%"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:translationY="-30dp" />
+                </FrameLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <include android:id="@+id/statStart" android:layout_marginHorizontal="2dp" android:layout_height="match_parent" android:layout_width="0dp" layout="@layout/item_stat_card"
+                        android:layout_weight="1" />
+                    <include android:id="@+id/statEnd" android:layout_marginHorizontal="2dp" android:layout_height="match_parent" android:layout_width="0dp" layout="@layout/item_stat_card"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="7dp"
+                android:layout_marginVertical="4dp"
+                android:background="@drawable/container_style"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="@string/efficiency"
+                    android:layout_margin="3dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="3dp">
+                    <include android:id="@+id/statDaily" android:layout_marginHorizontal="2dp" android:layout_height="match_parent" android:layout_width="0dp" layout="@layout/item_stat_card"
+                        android:layout_weight="1" />
+                    <include android:id="@+id/statPercent" android:layout_marginHorizontal="2dp" android:layout_height="match_parent" android:layout_width="0dp" layout="@layout/item_stat_card"
+                        android:layout_weight="1" />
+                </LinearLayout>
+                <include android:id="@+id/statState"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    layout="@layout/item_stat_card" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="7dp"
+                android:animateLayoutChanges="true"
+                android:background="@drawable/container_style"
+                android:padding="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="History"
+                        android:textStyle="bold"
+                        android:layout_marginStart="8dp"/>
+                    <Button
+                        android:id="@+id/btn_show_more"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Show more"
+                        android:textAllCaps="false"
+                        android:textColor="?attr/colorPrimary" />
+                </LinearLayout>
+
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/history_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="?colorPrimary"
+        app:tint="@color/white"
+        app:fabCustomSize="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="Add transaction" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

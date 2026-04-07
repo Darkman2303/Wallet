@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">Кошелек</string>
+    <string name="app_info_name">Название приложения: </string>
+    <string name="app_info_package">Имя пакета: </string>
+    <string name="app_info_version">Версия: </string>
+    <string name="app_info_device">Устройство: </string>
+    <string name="app_info_android">Android: </string>
+    <string name="app_info_developer">Разработчик: </string>
+    <string name="app_info_support">Поддержка: </string>
+    <string name="about_app">О приложении</string>
+    <string name="about_app_title">О программе %1$s</string>
+    <string name="developer_name">Нурматов Руслан</string>
+    <string name="developer_email">nurmatovruslan311@gmail.com</string>
+
+    <string name="title_home">Главная</string>
+    <string name="title_dashboard">Панель управления</string>
+    <string name="title_notifications">Уведомления</string>
+    <string name="history">История</string>
+
+    <string name="add">Добавить баллы</string>
+    <string name="remove">Списать баллы</string>
+    <string name="set_score">Установить значение</string>
+    <string name="edit_score">Редактировать счет</string>
+    <string name="change_score">Изменение счета</string>
+    <string name="edit">Изменить</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="done">Готово</string>
+    <string name="filter">Фильтр</string>
+    <string name="sort">Сортировка</string>
+    <string name="action_choose_one">Выберите один вариант</string>
+    <string name="support">Поддержка</string>
+    <string name="testing">Тестирование</string>
+
+
+    <string name="number_hint">Введите число</string>
+    <string name="enter_a_whole_number">Введите целое число</string>
+    <string name="hint_date">Введите дату</string>
+    <string name="number_format_error">Ошибка ввода. Пожалуйста, введите число.</string>
+    <string name="error_input_correct_number">Ошибка, введите корректное число</string>
+    <string name="error_inner">Внутренняя ошибка</string>
+    <string name="error_creating_file">Ошибка при создании файла.</string>
+    <string name="error_get_history">Ошибка загрузки истории, создан новый список</string>
+    <string name="error_unknown_balance">Ошибка: неизвестный баланс.</string>
+    <string name="error_empty_field">Поле не может быть пустым</string>
+    <string name="goal_value_hint">Введите целовое значение</string>
+    <string name="title_hint">Заголовок</string>
+
+    <string name="choose_color">Выберите цвет</string>
+    <string name="choose_image">Выберите изображение</string>
+    <string name="selected_color_prefix">Цвет: %1$s</string>
+    <string name="color_growth_green">Денежный рост</string>
+    <string name="color_trust_blue">Надежный синий</string>
+    <string name="color_smart_purple">Умный фиолетовый</string>
+    <string name="color_energy_orange">Солнечная энергия</string>
+    <string name="color_berry_fuchsia">Ягодный микс</string>
+    <string name="color_fresh_teal">Свежая бирюза</string>
+    <string name="color_royal_gold">Золотой успех</string>
+    <string name="color_rose_desire">Розовая мечта</string>
+    <string name="color_purple">Королевский аметист</string>
+    <string name="color_slate">Грифельный серый</string>
+    <string name="color_coral">Нежный коралл</string>
+
+    <string name="score_text">Счет</string>
+    <string name="left_score_text">Осталось набрать</string>
+    <string name="max_score_text">Цель</string>
+    <string name="sum">Сумма</string>
+    <string name="total">Итого</string>
+    <string name="goal">Цель: </string>
+    <string name="goal_hint">Изменить цель</string>
+    <string name="percent">Процент</string>
+    <string name="persent_achive">Процент достижения: </string>
+    <string name="efficiency">Эффективность</string>
+    <string name="performance">Успеваемость</string>
+    <string name="value">Значение</string>
+    <string name="edit_balance">Редактирование</string>
+    <string name="create_balance">Создание</string>
+
+
+    <string name="today">Сегодня</string>
+    <string name="date">Дата:</string>
+    <string name="dates">Даты</string>
+    <string name="target_date">Целевая дата:</string>
+    <string name="based_day">Дата начала: </string>
+    <string name="left_days">Дней осталось: </string>
+    <string name="passed_days">Дней прошло</string>
+    <string name="start">Старт</string>
+    <string name="end">Финиш</string>
+    <string name="from">От</string>
+    <string name="To">До</string>
+    <string name="date_format_dd_mm_yyyy">dd.MM.yyyy</string>
+
+    <string name="stat_plan">План: Факт / База</string>
+    <string name="ahead">Опережение</string>
+    <string name="on_track">В графике</string>
+    <string name="behind">Отставание</string>
+    <string name="need_to_catch_up">Нужно догнать</string>
+    <string name="right_now">прямо сейчас</string>
+    <string name="analyse_finish_day">С таким темпом вы закончите</string>
+    <string name="days_early">дн. раньше срока!</string>
+    <string name="finishing_on_time">Отличный темп! Вы закончите вовремя.</string>
+    <string name="f_on_time">Вы идете точно по графику. Так держать!</string>
+
+    <string name="goal_score">Счет</string>
+    <string name="goal_target">Цель</string>
+    <string name="goal_remains">Осталось</string>
+    <string name="goal_weekly_actual_plan">Нед. факт/план</string>
+    <string name="goal_progress">Прогресс</string>
+    <string name="goal_status_behind">Отставание 🚩</string>
+    <string name="goal_status_ahead">Опережение 🚀</string>
+    <string name="goal_status_on_track">В графике ✅</string>
+    <string name="goal_status">Статус</string>
+    <string name="goal_days_passed">Прошло дней</string>
+    <string name="goal_days_left">Осталось дней</string>
+    <string name="goal_time">Время</string>
+    <string name="goal_days_separator"> / </string>
+
+    <string name="salary">Зарплата</string>
+    <string name="money">Деньги</string>
+    <string name="type">Тип</string>
+    <string name="transaction">Транзакция</string>
+    <string name="enrollment">Зачисление</string>
+    <string name="accumulation">Накопление</string>
+    <string name="expense">Расход</string>
+    <string name="income">Доход</string>
+    <string name="event">Событие</string>
+    <string name="each_other">Прочее</string>
+    <string name="owe">долг: </string>
+    <string name="fact_">факт. </string>
+    <string name="every_day_vsnos">Нужно в день: </string>
+
+    <string name="languages">Языки</string>
+    <string name="personalisation">Персонализация</string>
+    <string name="active_accent">Активный акцент</string>
+    <string name="use_deep_dark">Глубокая темная тема</string>
+    <string name="dark_mode_is_off">Доступно только в темном режиме</string>
+    <string name="synch">Синхронизация</string>
+    <string name="dynamic_variant">Динамические цвета</string>
+
+    <string name="red_variant">Оттенки красного</string>
+    <string name="purple_variant">Оттенки фиолетового</string>
+    <string name="green_variant">Оттенки зеленого</string>
+    <string name="blue_variant">Оттенки синего</string>
+    <string name="brown_variant">Оттенки коричневого</string>
+    <string name="br_variant">Оттенки голубого</string>
+    <string name="rose_variant">Оттенки розового</string>
+    <string name="yellow_variant">Оттенки желтого</string>
+    <string name="lime_variant">Оттенки лайма</string>
+    <string name="violet_variant">Оттенки лилового</string>
+    <string name="olive_variant">Оттенки оливкового</string>
+
+    <string name="machine">Машина</string>
+    <string name="education">Образование</string>
+    <string name="smartphone">Смартфон</string>
+    <string name="laptop">Ноутбук / ПК</string>
+    <string name="shield">Защита баланса</string>
+    <string name="holiday">Праздники</string>
+    <string name="none">Нет</string>
+    <string name="more">Больше</string>
+    <string name="less">Меньше</string>
+
+    <string-array name="input_category">
+    <item>Зарплата</item>
+    <item>Подарок</item>
+    <item>Проценты</item>
+    <item>Чаевые</item>
+    <item>Стипендия</item>
+    <item>Премия</item>
+    <item>Инвестиции</item>
+    <item>Кэшбэк</item>
+    <item>Продажа</item>
+    <item>Аренда</item>
+    <item>Подработка</item>
+    <item>Прочее</item>
+</string-array>
+    <string-array name="income_categories">
+        <item>Зарплата</item>
+        <item>Подарок</item>
+        <item>Проценты</item>
+        <item>Чаевые</item>
+        <item>Стипендия / Премия</item>
+        <item>Прочее</item>
+    </string-array>
+
+    <string name="advice1">Докажи себе, на что ты способен!</string>
+    <string name="advice2">Выше и выше к своей цели!</string>
+    <string name="advice3">Маленькие шаги ведут к большим результатам.</string>
+    <string name="advice4">Твои будущие успехи зависят от сегодняшних усилий.</string>
+    <string name="advice5">Дисциплина — это мост между целью и достижением.</string>
+    <string name="advice6">Каждый вложенный балл — это инвестиция в мечту.</string>
+    <string name="advice7">Не останавливайся, пока не будешь гордиться собой.</string>
+    <string name="advice8">Путь в тысячу миль начинается с первого шага.</string>
+    <string name="advice9">Сложно — не значит невозможно.</string>
+    <string name="advice10">Твой единственный конкурент — это ты вчерашний.</string>
+    <string name="advice11">Фокусируйся на прогрессе, а не на идеале.</string>
+    <string name="advice12">Успех — это сумма маленьких усилий, повторяемых изо дня в день.</string>
+    <string name="advice13">Главное — не скорость, а то, что ты не прекращаешь движение.</string>
+
+    <string name="alert_history_empty">История транзакций пуста.</string>
+    <string name="not_full_info">Информация неполная</string>
+    <string name="unknown_balance">Неизвестный баланс</string>
+    <string name="left">Осталось</string>
+    <string name="app_info_full_format">
+        | %1$s %2$s\n
+        | %3$s %4$s\n
+        | %5$s %6$s (%7$d)\n
+        | %8$s %9$s %10$s\n
+        | %11$s %12$s (API %13$d)\n\n
+        | %14$s %15$s\n
+        | %16$s %17$s
+    </string>
+
+</resources>

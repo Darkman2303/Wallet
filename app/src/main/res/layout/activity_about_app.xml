@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_app">
+    <LinearLayout
+        android:id="@+id/app_bar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/back_bt"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/container_style"
+            android:backgroundTint="?colorSecondary"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_back"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="@string/about_app"
+            android:layout_marginStart="3dp"
+            android:backgroundTint="?colorSecondary"
+            android:background="@drawable/container_style"/>
+        </LinearLayout>
+    <ScrollView
+        app:layout_constraintTop_toBottomOf="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/app_info_container"
+                android:layout_margin="7dp"
+                android:background="@drawable/container_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:id="@+id/app_info_itle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="24sp"/>
+                <TextView
+                    android:id="@+id/app_info_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

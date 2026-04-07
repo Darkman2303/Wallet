@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="light_purple">#E6E6FA</color>
+
+    <color name="purple_700">#FF3700B3</color>
+    <color name="purple_500">#FF370003</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#303030</color>
+    <color name="gray1">#444444</color>
+    <color name="gray_progress">#666</color>
+    <color name="gray_light">#D3D3D3</color>
+    <color name="pink_variant">#990066</color>
+    <color name="burgundy">#990066</color>
+
+
+    <color name="acc_growth_green">#4CAF50</color>
+    <color name="acc_trust_blue">#0067A5</color>
+    <color name="acc_smart_purple">#6200EE</color>
+    <color name="acc_energy_orange">#FFA500</color>
+    <color name="acc_berry_fuchsia">#990066</color>
+    <color name="acc_fresh_teal">#018786</color>
+    <color name="acc_royal_gold">#D4AF37</color>
+    <color name="acc_rose_desire">#E91E63</color>
+    <color name="acc_deep_ocean">#9B59B6</color>
+    <color name="acc_royal_purple">#9B59B6</color>
+    <color name="acc_slate_gray">#455A64</color>
+    <color name="acc_soft_coral">#FF6B6B</color>
+
+    <color name="sort_">#4B3E55</color>
+    <color name="filtr_">#315646</color>
+
+    <color name="red">#CC0605</color>
+    <color name="red_variant">#fc4235</color>
+    <color name="red_dark">#8B0000</color>
+    <color name="red_light">#ffe2e0</color>
+    <color name="red_progress">#c7a4a1</color>
+
+    <color name="blue">#003153</color>
+    <color name="blue_1">#267AF7</color>
+    <color name="blue_2">#0067A5</color>
+    <color name="blue_light">#dae6f5</color>
+    <color name="blue_progress">#9ca8b8</color>
+
+    <color name="green_1">#228B22</color>
+    <color name="green">#0A4500</color>
+    <color name="green_light">#d2f7e4</color>
+    <color name="green_progress">#8ab59e</color>
+
+    <color name="olive">#917124</color>
+    <color name="olive_dark">#808000</color>
+    <color name="olive_light">#f4e0bb</color>
+    <color name="olive_progress">#cdbb9a</color>
+
+    <color name="violet">#660066</color>
+    <color name="violet_1">#BA55D3</color>
+    <color name="violet_light">#f5d3f5</color>
+    <color name="violet_progress">#c4abc4</color>
+
+    <color name="brown">#704214</color>
+    <color name="brown_1">#A65E2E</color>
+    <color name="brown_2">#5B3A29</color>
+    <color name="brown_light">#fad6bb</color>
+    <color name="brown_progress">#baa18d</color>
+
+    <color name="br">#116062</color>
+    <color name="br_1">#008B8B</color>
+    <color name="br_light">#e1faef</color>
+    <color name="br_progress">#96aba2</color>
+
+    <color name="rose">#D71868</color>
+    <color name="rose_1">#E75480</color>
+    <color name="rose_light">#ffdee9</color>
+    <color name="rose_progress">#d9b6c2</color>
+
+    <color name="yellow_1">#FAD201</color>
+    <color name="yellow">#FFD700</color>
+    <color name="yellow_light">#fff6c9</color>
+    <color name="yellow_progress">#d6cea5</color>
+
+    <color name="lime">#32CD32</color>
+    <color name="lime_light">#ccfccc</color>
+    <color name="lime_progress">#b0d9b0</color>
+
+    <color name="purple">#FF00FF</color>
+    <color name="purple_light">#ffd9ff</color>
+    <color name="purple_progress">#FFB0E0</color>
+
+    <color name="dynamic_1">#008B8B</color>
+    <color name="dynamic_2">#FF3d8263</color>
+    <color name="dynamic_3">#FF786eaa</color>
+    <color name="dynamic_4">#FF5977ab</color>
+    <color name="dynamic_5">#FFa7663c</color>
+    <color name="dynamic_6">#FFf3232c</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+</resources>
