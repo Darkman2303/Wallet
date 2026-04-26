@@ -4,7 +4,7 @@ import android.app.Application;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
-import com.darkman.wallet_3.Balance;
+
 import java.util.List;
 
 public class AccuViewModel extends AndroidViewModel {
@@ -29,7 +29,6 @@ public class AccuViewModel extends AndroidViewModel {
                 balance.score = dbHelper.getSumForBalance(balance.id);
                 total += balance.score;
             }
-            // postValue безопасен для вызова из любого потока
             _balances.postValue(balanceList);
             _totalSum.postValue(total);
         }).start();

@@ -44,10 +44,6 @@
 
         </LinearLayout>
 
-        <!--
-            ИСПРАВЛЕНО: Я заменил вложенный LinearLayout на RecyclerView.
-            Теперь ваш Java-код сможет правильно найти этот элемент.
-        -->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/BalanceContainer"
             android:layout_width="match_parent"
@@ -68,8 +64,8 @@
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="65dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
         android:backgroundTint="?colorPrimary"
         android:contentDescription="@string/event"
         app:fabCustomSize="65dp"

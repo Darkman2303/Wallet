@@ -1,4 +1,4 @@
-package com.darkman.wallet_3;
+package com.darkman.wallet_3.ui.accumulation;
 
 import java.io.Serializable;
 

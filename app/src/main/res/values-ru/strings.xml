@@ -14,7 +14,7 @@
 
     <string name="title_home">Главная</string>
     <string name="title_dashboard">Панель управления</string>
-    <string name="title_notifications">Уведомления</string>
+    <string name="title_notifications">Настройки</string>
     <string name="history">История</string>
 
     <string name="add">Добавить баллы</string>

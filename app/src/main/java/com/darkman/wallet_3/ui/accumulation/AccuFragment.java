@@ -1,6 +1,5 @@
 package com.darkman.wallet_3.ui.accumulation;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,11 +11,9 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import com.darkman.wallet_3.Balance;
+
 import com.darkman.wallet_3.R;
 import com.darkman.wallet_3.databinding.FragmentAccuBinding;
-import com.google.android.material.bottomsheet.BottomSheetBehavior;
-import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.transition.MaterialSharedAxis;
 
 import java.util.ArrayList;

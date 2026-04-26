@@ -17,8 +17,8 @@ public class GoalActivityViewModelFactory implements ViewModelProvider.Factory {
     @NonNull
     @Override
     @SuppressWarnings("unchecked")
-    public <T extends ViewModel> T create(@NonNull Class<T> modelClass) { // 1. Добавлено имя параметра 'modelClass'
-        if (modelClass.isAssignableFrom(GoalViewModel.class)) { // 2. Исправлена проверка
+    public <T extends ViewModel> T create(@NonNull Class<T> modelClass) {
+        if (modelClass.isAssignableFrom(GoalViewModel.class)) {
             return (T) new GoalViewModel(application, balanceId);
         }
         throw new IllegalArgumentException("Unknown ViewModel class");

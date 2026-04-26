@@ -17,16 +17,6 @@
             android:name=".ui.testing.Testing"
             android:exported="false" />
         <activity
-            android:name=".ui.accumulation.GoalActivity"
-            android:enableOnBackInvokedCallback="true"
-            android:exported="false"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.blue">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-        <activity
             android:name=".About_app"
             android:exported="false" />
         <activity

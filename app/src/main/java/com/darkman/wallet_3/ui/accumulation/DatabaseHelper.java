@@ -7,9 +7,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.darkman.wallet_3.Balance;
-import com.darkman.wallet_3.History;
-
 import java.util.ArrayList;
 import java.util.List;
 

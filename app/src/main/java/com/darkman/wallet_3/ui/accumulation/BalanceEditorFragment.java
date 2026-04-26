@@ -1,8 +1,6 @@
 
 package com.darkman.wallet_3.ui.accumulation;
 
-import static android.widget.Toast.LENGTH_LONG;
-
 import android.app.DatePickerDialog;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
@@ -12,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,7 +17,6 @@ import androidx.core.content.ContextCompat;
 import androidx.lifecycle.ViewModelProvider;
 import com.darkman.wallet_3.R;
 import com.darkman.wallet_3.databinding.FragmentBalanceEditorBinding;
-import com.darkman.wallet_3.Balance;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import com.google.android.material.button.MaterialButton;
 import java.util.Arrays;
@@ -177,7 +173,6 @@ public class BalanceEditorFragment extends BottomSheetDialogFragment {
     }
 
     private void refreshColorButtons() {
-        // Создаем карту соответствия кнопки и ресурса цвета для точности
         Map<MaterialButton, Integer> colorMap = new HashMap<>();
         colorMap.put(binding.cGrowthGreenBtn, R.color.acc_growth_green);
         colorMap.put(binding.cTrustBlueBtn, R.color.acc_trust_blue);
@@ -196,11 +191,11 @@ public class BalanceEditorFragment extends BottomSheetDialogFragment {
             int colorRes = entry.getValue();
 
             if (colorRes == selectedColorResId) {
-                btn.setCornerRadius(100); // Идеальный круг
-                btn.setStrokeWidth(6);    // Обводка
+                btn.setCornerRadius(100);
+                btn.setStrokeWidth(6);
                 btn.setStrokeColor(ColorStateList.valueOf(Color.LTGRAY));
             } else {
-                btn.setCornerRadius(20);  // Скругленный квадрат
+                btn.setCornerRadius(20);
                 btn.setStrokeWidth(0);
             }
         }
@@ -278,6 +273,7 @@ public class BalanceEditorFragment extends BottomSheetDialogFragment {
         int max = Integer.parseInt(maxStr);
         viewModel.addBalance(name, 0, max, basedDayTimestamp, targetDayTimestamp, 0, selectedIconResId, selectedColorResId);
         dismiss();
+        requireActivity().recreate();
     }
     private String formatDate(Calendar calendar) {
         int day = calendar.get(Calendar.DAY_OF_MONTH);

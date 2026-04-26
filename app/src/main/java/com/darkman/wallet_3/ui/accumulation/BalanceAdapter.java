@@ -9,8 +9,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
-import com.darkman.wallet_3.Balance;
-import com.darkman.wallet_3.R;
+
 import com.darkman.wallet_3.databinding.BalanceLayoutBinding;
 import java.util.List;
 

@@ -3,20 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
-
-    <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.darkman.wallet_3.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+    app:startDestination="@+id/navigation_accumulation">
 
     <fragment
         android:id="@+id/goalFragment"
-        android:name="com.darkman.wallet_3.ui.accumulation.GoalFragment"
-        android:label="Goal"> <argument
+        android:name="com.darkman.wallet_3.ui.accumulation.GoalFragment">
+        <argument
         android:name="balance_data"
-        app:argType="com.darkman.wallet_3.Balance" />
+        app:argType="com.darkman.wallet_3.ui.accumulation.Balance" />
     </fragment>
 
     <fragment

@@ -1,6 +1,7 @@
 package com.darkman.wallet_3.ui.accumulation;
 
 import android.animation.ValueAnimator;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -62,15 +63,14 @@ public class CircularGoalView extends View {
         );
         textPaint.setTextSize(textSizePx);
     }
-
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
         float width = getWidth();
         float height = getHeight();
-        float padding = strokeWidth / 2f;
-
+        float additionalMargin = 20f;
+        float padding = (strokeWidth / 2f) + additionalMargin;
         rectF.set(padding, padding, width - padding, height - padding);
 
         // Рисуем кольца
@@ -78,10 +78,11 @@ public class CircularGoalView extends View {
         float sweepAngle = 360 * (progress / 100f);
         canvas.drawArc(rectF, -90, sweepAngle, false, progressPaint);
 
-        canvas.drawCircle(width / 2, height / 2, 230f, centerBgPaint);
+        float innerRadius = (width / 2.2f) - strokeWidth;
+        canvas.drawCircle(width / 2, height / 2, innerRadius, centerBgPaint);
 
 
-        String text = String.format("%.1f%%", progress);
+        @SuppressLint("DefaultLocale") String text = String.format("%.1f%%", progress);
 
         float xPos = width / 2;
         float yPos = height * 0.8f;
